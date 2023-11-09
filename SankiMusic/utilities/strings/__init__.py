@@ -19,7 +19,7 @@ for filename in os.listdir(r"./SankiMusic/utilities/strings"):
     if filename.endswith(".yml"):
         language_name = filename[:-4]
         commands[language_name] = yaml.safe_load(
-            open(r"./SankiMusic/utilities/strings/" + filename, encoding="utf8")
+            open(r"./SankiMusic/utilities/strings/" + filename, encoding='utf-8')
         )
 
 
