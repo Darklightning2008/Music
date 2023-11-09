@@ -19,7 +19,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐒ʌnƙɩ ✘ 𝐌ʋsɩƈ")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5336023580").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Kaal-xD/SankiXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Darklightning2008/Music")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "kaal")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Sanki_Owners")
@@ -64,20 +64,20 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/8e69ad92d7346ec1fbdb7.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/8e69ad92d7346ec1fbdb7.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/05fad6ad01399387c9ebc.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/6376f96379597ab679adb.jpg")
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-GLOBAL_IMG_URL = "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/a5743490fc951f9ba80cc.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/73737966b9e878acc72ae.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/72f5d56afb5fd92fd5342.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/c0b87ed7270b92f58484d.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/8ebdd312f6c7277d170e6.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/cfa65ce243d027d79dbce.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/56638cc3785308fa98b39.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/a68e8e17df4f08a71fc71.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/6b1414ad8b6955232ea13.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/6b1414ad8b6955232ea13.jpg"
 
 
 def time_to_seconds(time):
@@ -103,9 +103,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/8e69ad92d7346ec1fbdb7.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/6376f96379597ab679adb.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/8e69ad92d7346ec1fbdb7.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/05fad6ad01399387c9ebc.jpg"
